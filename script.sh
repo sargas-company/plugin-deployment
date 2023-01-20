@@ -51,6 +51,7 @@ if [[ "$BUILD_DIR" != false ]]; then
 	echo "ℹ︎ BUILD_DIR is $BUILD_DIR"
 fi
 
+#test line
 #SVN_URL="https://plugins.svn.wordpress.org/${SLUG}/"
 SVN_URL="http://18.188.115.132/svn/sargas-recaptcha"
 SVN_DIR="${HOME}/svn-${SLUG}"
