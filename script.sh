@@ -95,7 +95,7 @@ svn cp "trunk" "tags/$VERSION"
 # Fix screenshots getting force downloaded when clicking them
 # https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/
 svn propset svn:mime-type image/png assets/*.png || true
-svn propset svn:mime-type image/jpeg assets/*.gif || true
+svn propset svn:mime-type image/gif assets/*.gif || true
 
 svn status
 
